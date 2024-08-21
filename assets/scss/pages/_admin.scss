@@ -1,0 +1,18 @@
+
+.page-item:first-child .page-link,
+.page-item:last-child .page-link {
+    color: $success;
+}
+
+.page-item .page-link {
+    color: $gray-900;
+    &:hover {
+        color: white;
+        background: $success;
+    }
+}
+
+.pagination .page-item .active {
+    color: white;
+    background: $success;
+}

@@ -2,3 +2,11 @@
   width: calc(100% - 296px);
   margin-left: auto;
 }
+
+.nav-link:hover {
+  color: $success;
+}
+
+.icon-btn:hover {
+  color: $success;
+}
